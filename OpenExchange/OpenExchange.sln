@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{2E5C384D-0E43-4731-A408-10C437406E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{F7E44E08-48CC-47F8-9AF1-FA12B4F1C48B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{E9F7E53D-A286-46E5-8FD9-E6E8DD99730E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{65C8E292-D7B0-46B9-95F0-74CB322EC2CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 - Shared Kernel", "2.0 - Shared Kernel", "{3B3267D0-4F40-491F-9D68-8DE6C81FA668}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Shared Kernel Repositories", "3.0 - Shared Kernel Repositories", "{E762768B-6722-4DF6-9EA6-4EC5A5BD0FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Exchange Repositories", "3.1 - Exchange Repositories", "{F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Application", "OpenExchange.Application\OpenExchange.Application.csproj", "{8D593A6B-2DD6-4E81-A664-FA755262D005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Domain.SharedKernel", "OpenExchange.Domain.SharedKernel\OpenExchange.Domain.SharedKernel.csproj", "{DDE17E93-4EC7-4D35-9A60-5DB332390C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Infrastructure.SharedKernel", "OpenExchange.Infrastructure.SharedKernel\OpenExchange.Infrastructure.SharedKernel.csproj", "{A0B6EF3F-DBEA-4E95-93C6-80F335783262}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Poloniex", "Poloniex", "{CE15B6B0-85AF-4F22-80F0-EBF484090210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bitfinex", "Bitfinex", "{E9F263DD-2B58-4EBF-9F1E-7B4B63C06EF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoinExchange", "CoinExchange", "{54125133-533F-4275-8A96-21672510B85F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bittrex", "Bittrex", "{CB64A77F-B7F7-430E-8281-0401943473EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D593A6B-2DD6-4E81-A664-FA755262D005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D593A6B-2DD6-4E81-A664-FA755262D005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D593A6B-2DD6-4E81-A664-FA755262D005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D593A6B-2DD6-4E81-A664-FA755262D005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE17E93-4EC7-4D35-9A60-5DB332390C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE17E93-4EC7-4D35-9A60-5DB332390C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE17E93-4EC7-4D35-9A60-5DB332390C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE17E93-4EC7-4D35-9A60-5DB332390C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B6EF3F-DBEA-4E95-93C6-80F335783262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B6EF3F-DBEA-4E95-93C6-80F335783262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B6EF3F-DBEA-4E95-93C6-80F335783262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B6EF3F-DBEA-4E95-93C6-80F335783262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B3267D0-4F40-491F-9D68-8DE6C81FA668} = {E9F7E53D-A286-46E5-8FD9-E6E8DD99730E}
+		{E762768B-6722-4DF6-9EA6-4EC5A5BD0FEB} = {65C8E292-D7B0-46B9-95F0-74CB322EC2CA}
+		{F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7} = {65C8E292-D7B0-46B9-95F0-74CB322EC2CA}
+		{8D593A6B-2DD6-4E81-A664-FA755262D005} = {F7E44E08-48CC-47F8-9AF1-FA12B4F1C48B}
+		{DDE17E93-4EC7-4D35-9A60-5DB332390C6E} = {3B3267D0-4F40-491F-9D68-8DE6C81FA668}
+		{A0B6EF3F-DBEA-4E95-93C6-80F335783262} = {E762768B-6722-4DF6-9EA6-4EC5A5BD0FEB}
+		{CE15B6B0-85AF-4F22-80F0-EBF484090210} = {F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}
+		{E9F263DD-2B58-4EBF-9F1E-7B4B63C06EF7} = {F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}
+		{54125133-533F-4275-8A96-21672510B85F} = {F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}
+		{CB64A77F-B7F7-430E-8281-0401943473EF} = {F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {609448E7-EBD4-4E04-B374-E7C8FB7F871E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+[submodule "OpenExchange/OmniGUI"]
+	path = OpenExchange/OmniGUI
+	url = https://github.com/OmniGUI/OmniGUI
