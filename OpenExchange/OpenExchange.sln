@@ -17,11 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Shared Kernel Reposit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Exchange Repositories", "3.1 - Exchange Repositories", "{F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Application", "OpenExchange.Application\OpenExchange.Application.csproj", "{8D593A6B-2DD6-4E81-A664-FA755262D005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenExchange.Application", "OpenExchange.Application\OpenExchange.Application.csproj", "{8D593A6B-2DD6-4E81-A664-FA755262D005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Domain.SharedKernel", "OpenExchange.Domain.SharedKernel\OpenExchange.Domain.SharedKernel.csproj", "{DDE17E93-4EC7-4D35-9A60-5DB332390C6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenExchange.Domain.SharedKernel", "OpenExchange.Domain.SharedKernel\OpenExchange.Domain.SharedKernel.csproj", "{DDE17E93-4EC7-4D35-9A60-5DB332390C6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Infrastructure.SharedKernel", "OpenExchange.Infrastructure.SharedKernel\OpenExchange.Infrastructure.SharedKernel.csproj", "{A0B6EF3F-DBEA-4E95-93C6-80F335783262}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenExchange.Infrastructure.SharedKernel", "OpenExchange.Infrastructure.SharedKernel\OpenExchange.Infrastructure.SharedKernel.csproj", "{A0B6EF3F-DBEA-4E95-93C6-80F335783262}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Poloniex", "Poloniex", "{CE15B6B0-85AF-4F22-80F0-EBF484090210}"
 EndProject
@@ -30,6 +30,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoinExchange", "CoinExchange", "{54125133-533F-4275-8A96-21672510B85F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bittrex", "Bittrex", "{CB64A77F-B7F7-430E-8281-0401943473EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Intrastructure.Exchanges.Bitfinex", "OpenExchange.Intrastructure.Exchanges.Bitfinex\OpenExchange.Intrastructure.Exchanges.Bitfinex.csproj", "{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Intrastructure.Exchanges.Bittrex", "OpenExchange.Intrastructure.Exchanges.Bittrex\OpenExchange.Intrastructure.Exchanges.Bittrex.csproj", "{4A1A5710-D33A-40FF-9A04-AFE2E18C131E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.API", "OpenExchange.API\OpenExchange.API.csproj", "{4D358644-C801-47F1-AB02-5500F473B388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Web", "OpenExchange.Web\OpenExchange.Web.csproj", "{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Dependency Injection", "3.2 - Dependency Injection", "{961A2685-C287-490A-8D6A-97634B2F4721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Infrastructure.DI", "OpenExchange.Infrastructure.DI\OpenExchange.Infrastructure.DI.csproj", "{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +61,26 @@ Global
 		{A0B6EF3F-DBEA-4E95-93C6-80F335783262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0B6EF3F-DBEA-4E95-93C6-80F335783262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0B6EF3F-DBEA-4E95-93C6-80F335783262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1A5710-D33A-40FF-9A04-AFE2E18C131E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1A5710-D33A-40FF-9A04-AFE2E18C131E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1A5710-D33A-40FF-9A04-AFE2E18C131E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1A5710-D33A-40FF-9A04-AFE2E18C131E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D358644-C801-47F1-AB02-5500F473B388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D358644-C801-47F1-AB02-5500F473B388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D358644-C801-47F1-AB02-5500F473B388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D358644-C801-47F1-AB02-5500F473B388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +96,12 @@ Global
 		{E9F263DD-2B58-4EBF-9F1E-7B4B63C06EF7} = {F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}
 		{54125133-533F-4275-8A96-21672510B85F} = {F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}
 		{CB64A77F-B7F7-430E-8281-0401943473EF} = {F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}
+		{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45} = {E9F263DD-2B58-4EBF-9F1E-7B4B63C06EF7}
+		{4A1A5710-D33A-40FF-9A04-AFE2E18C131E} = {CB64A77F-B7F7-430E-8281-0401943473EF}
+		{4D358644-C801-47F1-AB02-5500F473B388} = {F7E44E08-48CC-47F8-9AF1-FA12B4F1C48B}
+		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5} = {2E5C384D-0E43-4731-A408-10C437406E36}
+		{961A2685-C287-490A-8D6A-97634B2F4721} = {65C8E292-D7B0-46B9-95F0-74CB322EC2CA}
+		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD} = {961A2685-C287-490A-8D6A-97634B2F4721}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {609448E7-EBD4-4E04-B374-E7C8FB7F871E}
