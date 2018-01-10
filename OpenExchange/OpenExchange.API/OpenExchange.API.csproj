@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -18,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OpenExchange.Application\OpenExchange.Application.csproj" />
+    <ProjectReference Include="..\OpenExchange.Infrastructure.DI\OpenExchange.Infrastructure.DI.csproj" />
   </ItemGroup>
 
 </Project>

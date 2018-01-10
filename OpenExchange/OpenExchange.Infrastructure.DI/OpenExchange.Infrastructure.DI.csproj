@@ -4,4 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector.Integration.WebApi" Version="4.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenExchange.Application\OpenExchange.Application.csproj" />
+    <ProjectReference Include="..\OpenExchange.Domain.SharedKernel\OpenExchange.Domain.SharedKernel.csproj" />
+    <ProjectReference Include="..\OpenExchange.Infrastructure.SharedKernel\OpenExchange.Infrastructure.SharedKernel.csproj" />
+    <ProjectReference Include="..\OpenExchange.Intrastructure.Exchanges.Bitfinex\OpenExchange.Intrastructure.Exchanges.Bitfinex.csproj" />
+    <ProjectReference Include="..\OpenExchange.Intrastructure.Exchanges.Bittrex\OpenExchange.Intrastructure.Exchanges.Bittrex.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{2E5C384D-0E43-4731-A408-10C437406E36}"
 EndProject
@@ -31,17 +31,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoinExchange", "CoinExchang
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bittrex", "Bittrex", "{CB64A77F-B7F7-430E-8281-0401943473EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Intrastructure.Exchanges.Bitfinex", "OpenExchange.Intrastructure.Exchanges.Bitfinex\OpenExchange.Intrastructure.Exchanges.Bitfinex.csproj", "{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenExchange.Intrastructure.Exchanges.Bitfinex", "OpenExchange.Intrastructure.Exchanges.Bitfinex\OpenExchange.Intrastructure.Exchanges.Bitfinex.csproj", "{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Intrastructure.Exchanges.Bittrex", "OpenExchange.Intrastructure.Exchanges.Bittrex\OpenExchange.Intrastructure.Exchanges.Bittrex.csproj", "{4A1A5710-D33A-40FF-9A04-AFE2E18C131E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenExchange.Intrastructure.Exchanges.Bittrex", "OpenExchange.Intrastructure.Exchanges.Bittrex\OpenExchange.Intrastructure.Exchanges.Bittrex.csproj", "{4A1A5710-D33A-40FF-9A04-AFE2E18C131E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.API", "OpenExchange.API\OpenExchange.API.csproj", "{4D358644-C801-47F1-AB02-5500F473B388}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Web", "OpenExchange.Web\OpenExchange.Web.csproj", "{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenExchange.API", "OpenExchange.API\OpenExchange.API.csproj", "{4D358644-C801-47F1-AB02-5500F473B388}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Dependency Injection", "3.2 - Dependency Injection", "{961A2685-C287-490A-8D6A-97634B2F4721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenExchange.Infrastructure.DI", "OpenExchange.Infrastructure.DI\OpenExchange.Infrastructure.DI.csproj", "{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenExchange.Infrastructure.DI", "OpenExchange.Infrastructure.DI\OpenExchange.Infrastructure.DI.csproj", "{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,10 +71,6 @@ Global
 		{4D358644-C801-47F1-AB02-5500F473B388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D358644-C801-47F1-AB02-5500F473B388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D358644-C801-47F1-AB02-5500F473B388}.Release|Any CPU.Build.0 = Release|Any CPU
-		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -98,8 +92,7 @@ Global
 		{CB64A77F-B7F7-430E-8281-0401943473EF} = {F4A0567F-4D42-43D2-AED3-C08CFFF7E7E7}
 		{87C6C0DC-7BE9-4D55-A316-D9E06A8D7E45} = {E9F263DD-2B58-4EBF-9F1E-7B4B63C06EF7}
 		{4A1A5710-D33A-40FF-9A04-AFE2E18C131E} = {CB64A77F-B7F7-430E-8281-0401943473EF}
-		{4D358644-C801-47F1-AB02-5500F473B388} = {F7E44E08-48CC-47F8-9AF1-FA12B4F1C48B}
-		{852A1D6B-2FF0-451E-B27E-C2A4CD567DE5} = {2E5C384D-0E43-4731-A408-10C437406E36}
+		{4D358644-C801-47F1-AB02-5500F473B388} = {2E5C384D-0E43-4731-A408-10C437406E36}
 		{961A2685-C287-490A-8D6A-97634B2F4721} = {65C8E292-D7B0-46B9-95F0-74CB322EC2CA}
 		{DDE27F46-9F77-44DB-BE18-CD4C191AC9AD} = {961A2685-C287-490A-8D6A-97634B2F4721}
 	EndGlobalSection
